@@ -3,9 +3,6 @@ from discord.ext import commands
 from discord import app_commands
 from collections import Counter
 
-# ================= CONFIG =================
-BOT_TOKEN = "MTQ2MjQ4MTEzMjgxNjgzMDU0Nw.GtZph8.ikp91aX8Hg6FmbruDSI56f1fb9vlypv9_XUDAY"
-
 HOST_CHANNEL_ID = 1462109920705904887
 RESULTS_CHANNEL_ID = 1462482146672381952
 LEAGUE_HOSTER_ROLE_ID = 1462109141752610858
@@ -213,3 +210,4 @@ async def on_message(message):
 
 
 bot.run(BOT_TOKEN)
+
